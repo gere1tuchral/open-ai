@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-export const dynamic = 'force-dynamic';
+
 export const POST = async (req: Request) => {
   const { prompt } = await req.json();
   const response = await fetch("https://api.openai.com/v1/responses", {
