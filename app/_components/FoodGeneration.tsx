@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { Badge } from "@/components/ui/badge";
 import { Loader2 } from "lucide-react";
+import Image from "next/image";
 
 export const FoodGeneration = () => {
   const [prompt, setPrompt] = useState<string>(

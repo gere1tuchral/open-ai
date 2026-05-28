@@ -14,7 +14,6 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Noto_Kufi_Arabic } from "next/font/google";
 
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY!,

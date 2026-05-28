@@ -13,8 +13,6 @@ import {
 } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Loader2, Upload } from "lucide-react";
-import { error } from "console";
-
 export function CaptureImage() {
   const [image, setImage] = useState<string | null>(null);
   const [isDragging, setIsDragging] = useState(false);
